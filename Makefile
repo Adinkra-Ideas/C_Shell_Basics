@@ -57,5 +57,5 @@ fclean: clean
 # Repeat fclean and recompile all mandatory functions
 re: fclean all
 
-# Dont compile the following files
+# The following are Rule declarations
 .PHONY:	all	clean	fclean	re bonus
